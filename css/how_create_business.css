@@ -1,0 +1,26 @@
+@media screen and (max-width: 980px) {
+  #how_create{
+    width:auto!important;
+	  padding:0 27px;
+  }
+}
+#how_create{
+  width:597px;
+  margin:27px auto;
+}
+.how_create_title{
+  font-size:19px;
+  margin-bottom:19px;
+  text-align:center;
+}
+.how_create_text{
+  text-align: justify;
+  line-height: 23px;
+  font-size: 13.5px;
+}
+.text_block{
+  padding: 7px 0 9px;
+}
+ul li{
+  margin-bottom: 11px;	
+}

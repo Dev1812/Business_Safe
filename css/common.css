@@ -1,0 +1,109 @@
+@media screen and (max-width: 980px) {
+  .head{	  
+    padding: 0 11px!important;
+  }
+  .head_link{
+    padding: 15px 7px 16px!important;
+  }
+  .banner_wrap{
+    display:none!important;  
+  }
+  .footer{
+    padding:19px 9% 29px!important;
+  }
+  .footer_link{
+    padding-right:9px!important;
+  }
+  .to_top{
+    display:none!important;
+	left:-1000px!important;
+  }
+}
+@font-face{
+  font-style: normal;
+  font-weight: 400;
+  font-family:'Open Sans Light';
+  src: local('Open Sans'), local('OpenSans'), url(/fonts/OpenSans_Light.woff) format("woff");
+}
+@font-face{
+  font-style: normal;
+  font-weight: 400;
+  font-family:'Open Sans Regular';
+  src:url(/fonts/OpenSans_Regular.woff) format("woff");
+}
+html, body{
+  margin:0;
+  padding:0;
+  font-family:'Open Sans Regular',Arial,tahoma,verdana,sans-serif;
+  font-size:13px;
+  line-height:17px;
+  -webkit-font-smoothing:subpixel-antialiased;
+  -moz-osx-font-smoothing:auto;
+}
+.big_title{
+  font-family:'Open Sans Light',Arial,tahoma,verdana,sans-serif !important;
+}
+a{
+  color: #0088cc;
+  text-decoration: none;
+}
+.head{
+  height:47px;
+  padding:0 17px;
+  border-bottom:1px solid #DEDEDE;
+  background-color:#3C4454;
+}
+.head_link{
+  float:left;
+  padding: 16px 11px 16px;
+  color:#FFF;
+}
+.to_top{
+  position:fixed;
+  top:0px;
+  left:0px;
+  bottom:0;
+  width: 97px;
+  cursor: pointer;
+  font-size: 13px;  
+  text-align: center;
+  padding: 15px 13px 0 5px;
+  transition: background 0.2s ease-in-out;
+  color: #0882C4;
+  display:none;
+}
+.to_top:hover{
+  background-color: #f4f5fd;
+}
+.to_top_icon{
+  display: inline-block;
+  background: url(/images/icons/to_top.png) 0 50% no-repeat;
+  width: 16px;
+  height: 7px;
+  margin-right: 5px;
+  margin-top: 7px;
+  vertical-align: text-top;
+}
+.float_r{
+  float:right;
+}
+.footer{
+  border-top:1px solid #DEDEDE;
+  padding:25px 12% 31px;
+  line-height:23px;
+}
+.footer_link{
+  padding-right:13px;
+}
+.clear{
+  clear:both;
+}
+.banner_wrap{
+  vertical-align:top;
+  padding:11px 0;
+}
+.text_not_found {
+  text-align:center;
+  padding:37px 0;
+  color:#808080;
+}

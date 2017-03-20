@@ -1,0 +1,39 @@
+@media screen and (max-width: 980px) {
+  #companies{
+    width:auto!important;
+	padding:0 27px;
+  }
+}
+#companies{
+  width:510px;
+  margin:27px auto;
+}
+.companies_title{
+  font-size:19px;
+  margin-bottom:31px;
+  text-align:center;
+}
+.company_left{
+  float:left;
+}
+.company_wrap{
+  margin-left:85px;
+  line-height: 19px;
+}
+.company_block{
+  margin-bottom:29px;	
+}
+.company_img{
+  width:68px;
+  height:47px;
+  margin-top:3px;
+}
+.company_info_l{
+  float:left;
+  color:#7B7B7B;
+  padding-right:5px;
+}
+.company_name{
+  font-size: 15px;
+  margin-bottom:4px;
+}

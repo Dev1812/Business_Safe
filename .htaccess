@@ -1,0 +1,10 @@
+AddDefaultCharset UTF-8
+ErrorDocument 404 /not_found.php
+DirectoryIndex index.php
+
+
+#Убираем расширение *.php
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php

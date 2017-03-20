@@ -1,0 +1,39 @@
+@media screen and (max-width: 980px) {
+  #buisness_man{
+    width:auto!important;
+	padding:0 27px;
+  }
+}
+#buisness_man{
+  width:510px;
+  margin:27px auto;
+}
+.bm_title{
+  font-size:19px;
+  margin-bottom:31px;
+  text-align:center;
+}
+.human_left{
+  float:left;
+}
+.human_wrap{
+  margin-left:85px;
+  line-height: 19px;
+}
+.human_block{
+  margin-bottom:29px;	
+}
+.human_img{
+  width:68px;
+  height:47px;
+  margin-top:3px;
+}
+.human_company_l{
+  float:left;
+  color:#7B7B7B;
+  padding-right:5px;
+}
+.human_name{
+  font-size: 15px;
+  margin-bottom:4px;
+}

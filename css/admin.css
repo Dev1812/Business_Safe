@@ -1,0 +1,72 @@
+#admin{
+  width:570px;
+  margin:17px auto;
+}
+.text_field, input, .button{
+  font:14px 'Open Sans',Arial,sans-serif;
+}
+.text_field{
+  border:1px solid #CCC;
+  width:100%;
+  border-radius:2px;
+  height:31px;
+  line-height:31px;
+  padding:0 12px;
+  box-sizing:border-box;
+  transition:all 0.17s ease-out;
+}
+.text_field:focus{
+  outline:none;
+  border:1px solid #1E93F2;
+  box-shadow:0 0 3px #0B6BBB;
+}
+.input_wrap{
+  padding:7px 0 11px;
+}
+.form_msg{
+  background:#FFF9E8;
+  border:1px solid #F7EED7;
+  padding:12px 17px;
+  color:#808080;
+  margin-bottom:23px;
+  margin-bottom: 12px;
+  padding:9px 15px;
+  color: #808080;
+}
+.form_msg_title{
+  padding-bottom:9px;
+  font-size:14px;
+  font-weight:bold;
+}
+.admin_title{
+  font-size: 17px;
+  margin-bottom: 14px;
+  line-height: 25px;
+  text-align: center;
+}
+.button{
+  background-color:#0084ff;
+  padding:0 11px;
+  border-radius:3px;
+  color:#FFF;
+  cursor:pointer;
+  height:30px;
+  line-height:30px;
+  font-size:15px;
+  background:#4C8EFA;
+  cursor:pointer;
+  color:#FFF;
+  padding:0 15px;
+  border:0;
+  margin:0;
+  text-align:center;
+  box-sizing:border-box;user-select:none;
+  -webkit-user-select:none;
+  transition:background 0.07s ease;
+}
+.button:hover{
+  background:#0D82E1;
+}
+.submit:focus, .text_field:focus{
+  outline:none;
+}
