@@ -237,4 +237,3 @@ var ajax = {
     document.head.appendChild(code);
   }
 }
-//http://www.wolframalpha.com/pro/step-by-step-math-solver.html?src=widget

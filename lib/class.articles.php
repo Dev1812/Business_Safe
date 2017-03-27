@@ -39,7 +39,7 @@ class Articles{
       $row['text'] = $this->common->stripText($row['text']);
       $arr[] = $row;
     }
-    if(count($arr) > $this->max_rows - 1) {
+    if(count($arr) > ($this->max_rows - 1)) {
       $has_more = true;
     }
     $offset = $offset + $this->max_rows;

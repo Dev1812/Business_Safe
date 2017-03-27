@@ -3,7 +3,7 @@
 ?>
 <div id="articles">
   <div class="articles_wrap" id="articles_wrap">
-    <input type="hidden" id="offset" value="10">
+    <input type="hidden" id="offset" value="5">
 <?php
   if(!isset($articles['articles']) || !is_array($articles['articles'])) {
     echo '<div class="text_not_found">Не найдено ни одной записи</div>';

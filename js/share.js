@@ -13,10 +13,10 @@ var Share = {
   share_img: null,
   init: function(share_url, share_title, share_text, share_img) {
     if(!share_url || !share_title) return false;
-	this.share_url = share_url;
-	this.share_title = share_title;
-	this.share_text = share_text || share_title;
-	this.share_img = share_img || '/images/icons/favicon_gray.ico';
+	  this.share_url = share_url;
+	  this.share_title = share_title;
+	  this.share_text = share_text || share_title;
+	  this.share_img = share_img || '/images/icons/favicon_gray.ico';
   },
   vk: function() {
     url  = 'http://vk.com/share.php?';
@@ -28,7 +28,7 @@ var Share = {
     createPopupWindow(url);
   },
   ok: function() {
-	url  = 'http://www.odnoklassniki.ru/dk?st.cmd=addShare&st.s=1';
+	  url  = 'http://www.odnoklassniki.ru/dk?st.cmd=addShare&st.s=1';
     url += '&st.comments=' + encodeURIComponent(this.share_text);
     url += '&st._surl='    + encodeURIComponent(this.share_url);
     createPopupWindow(url);

@@ -11,9 +11,9 @@
     <div class="not_found_text">
 	    Страница была удалена или еще не создана
 	  </div>
-    <div class="not_found_link_wrap">
-	    <a href="/" class="not_found_link">Перейти на главную</a>
-	  </div>
+    <a href="/" class="not_found_link">
+      <div class="not_found_link_wrap">Перейти на главную</div>
+    </a>
   </div>
 </div>
 <link rel="stylesheet" type="text/css" href="/css/not_found.css?1"
